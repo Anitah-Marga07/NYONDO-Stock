@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales Registration</title>
+    <link rel="stylesheet" href="salesRegistration.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        display: flex;
+        height: 100vh;
+      }
+      .sidebar {
+        background-color: aliceblue;
+        flex: 1;
+        border-right: 1px solid black;
+      }
+      .content {
+        background-color: beige;
+        flex: 3;
+      }
+      .input-container {
+        display: flex;
+        column-gap: 10px;
+      }
+      .input-section {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div>
+          <a href="dashboard.html">Dashboard</a>
+        </div>
+        <div>
+          <a href="supplierRegistration.html">Suppliers</a>
+        </div>
+      </div>
+      <div class="content">
+        <form action="">
+          <!--Section 1-->
+          <section>
+            <h2>Sales Registration</h2>
+            <div class="input-container">
+              <div class="input-section">
+                <label for="salesDate">Sales Date</label>
+                <input type="date" name="salesDate" id="salesDate" />
+              </div>
+
+              <div class="input-section">
+                <label for="salesPerson">Sales Person</label>
+                <select name="" id="salesPerson">
+                  <option value="" disabled selected>
+                    Select representative
+                  </option>
+                  <option value="1">Marie</option>
+                  <option value="2">Annie</option>
+                  <option value="3">Ian</option>
+                  <option value="4">Jemmie</option>
+                  <option value="5">Hans</option>
+                </select>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="input-container">
+              <div class="input-section">
+                
+              </div>
+            </div>
+          </section>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

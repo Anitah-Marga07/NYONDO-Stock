@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(249, 229, 203, 0.393);
+  color: rgb(1, 1, 78);
+  margin: 20px 10px;
+  padding: 30px 20px;
+}
+ul {
+  text-decoration: none;
+  color: blue;
+}
+h3 {
+  color: rgb(3, 3, 7);
+  text-decoration: double;
+  text-align: center;
+}
+p {
+  color: rgba(40, 1, 75, 0.975);
+  text-align: justify;
+}
+a {
+  color: rgb(10, 64, 64);
+  text-decoration: none;
+}
+p {
+    color: rgb(184, 250, 117);
+}
